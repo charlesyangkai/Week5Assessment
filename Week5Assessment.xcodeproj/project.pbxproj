@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C34B9BAB4655692C21CBC4 /* Pods_Week5Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045EE41EF7030231ED087842 /* Pods_Week5Assessment.framework */; };
 		8A169C8A1E5FCEE000F23533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A169C891E5FCEE000F23533 /* AppDelegate.swift */; };
 		8A169C8C1E5FCEE100F23533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A169C8B1E5FCEE100F23533 /* ViewController.swift */; };
 		8A169C8F1E5FCEE100F23533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A169C8D1E5FCEE100F23533 /* Main.storyboard */; };
 		8A169C911E5FCEE200F23533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A169C901E5FCEE200F23533 /* Assets.xcassets */; };
 		8A169C941E5FCEE200F23533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A169C921E5FCEE200F23533 /* LaunchScreen.storyboard */; };
+		8A169C9D1E5FD1BC00F23533 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A169C9C1E5FD1BC00F23533 /* MapKit.framework */; };
+		8A169C9F1E5FD1C300F23533 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A169C9E1E5FD1C300F23533 /* CoreLocation.framework */; };
+		8A169CA11E5FDEA200F23533 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A169CA01E5FDEA100F23533 /* TableViewController.swift */; };
+		8ADFD42C1E5FF0AC007D9DA2 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADFD42B1E5FF0AC007D9DA2 /* BikeStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045EE41EF7030231ED087842 /* Pods_Week5Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week5Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5C9857FB4041F965625E26 /* Pods-Week5Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Week5Assessment/Pods-Week5Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 		8A169C861E5FCEE000F23533 /* Week5Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week5Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A169C891E5FCEE000F23533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A169C8B1E5FCEE100F23533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		8A169C901E5FCEE200F23533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A169C931E5FCEE200F23533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A169C951E5FCEE200F23533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A169C9C1E5FD1BC00F23533 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8A169C9E1E5FD1C300F23533 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A169CA01E5FDEA100F23533 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8ADFD42B1E5FF0AC007D9DA2 /* BikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
+		D746F3713FF010EA777459A7 /* Pods-Week5Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Week5Assessment/Pods-Week5Assessment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A169C9F1E5FD1C300F23533 /* CoreLocation.framework in Frameworks */,
+				8A169C9D1E5FD1BC00F23533 /* MapKit.framework in Frameworks */,
+				01C34B9BAB4655692C21CBC4 /* Pods_Week5Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162B7095484F28C7BDFA443D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C9857FB4041F965625E26 /* Pods-Week5Assessment.debug.xcconfig */,
+				D746F3713FF010EA777459A7 /* Pods-Week5Assessment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A169C7D1E5FCEDD00F23533 = {
 			isa = PBXGroup;
 			children = (
 				8A169C881E5FCEE000F23533 /* Week5Assessment */,
 				8A169C871E5FCEE000F23533 /* Products */,
+				8A169C9B1E5FD1BB00F23533 /* Frameworks */,
+				162B7095484F28C7BDFA443D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +82,24 @@
 			children = (
 				8A169C891E5FCEE000F23533 /* AppDelegate.swift */,
 				8A169C8B1E5FCEE100F23533 /* ViewController.swift */,
+				8A169CA01E5FDEA100F23533 /* TableViewController.swift */,
+				8ADFD42B1E5FF0AC007D9DA2 /* BikeStation.swift */,
 				8A169C8D1E5FCEE100F23533 /* Main.storyboard */,
 				8A169C901E5FCEE200F23533 /* Assets.xcassets */,
 				8A169C921E5FCEE200F23533 /* LaunchScreen.storyboard */,
 				8A169C951E5FCEE200F23533 /* Info.plist */,
 			);
 			path = Week5Assessment;
+			sourceTree = "<group>";
+		};
+		8A169C9B1E5FD1BB00F23533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A169C9E1E5FD1C300F23533 /* CoreLocation.framework */,
+				8A169C9C1E5FD1BC00F23533 /* MapKit.framework */,
+				045EE41EF7030231ED087842 /* Pods_Week5Assessment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A169C981E5FCEE200F23533 /* Build configuration list for PBXNativeTarget "Week5Assessment" */;
 			buildPhases = (
+				685480BBC7C4AFCA581D8838 /* [CP] Check Pods Manifest.lock */,
 				8A169C821E5FCEDF00F23533 /* Sources */,
 				8A169C831E5FCEDF00F23533 /* Frameworks */,
 				8A169C841E5FCEDF00F23533 /* Resources */,
+				F1D226E29D4000546473D3F9 /* [CP] Embed Pods Frameworks */,
+				1803A34A794723C4BB3B4084 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +172,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1803A34A794723C4BB3B4084 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Week5Assessment/Pods-Week5Assessment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		685480BBC7C4AFCA581D8838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D226E29D4000546473D3F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Week5Assessment/Pods-Week5Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A169C821E5FCEDF00F23533 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A169C8C1E5FCEE100F23533 /* ViewController.swift in Sources */,
+				8ADFD42C1E5FF0AC007D9DA2 /* BikeStation.swift in Sources */,
+				8A169CA11E5FDEA200F23533 /* TableViewController.swift in Sources */,
 				8A169C8A1E5FCEE000F23533 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +347,7 @@
 		};
 		8A169C991E5FCEE200F23533 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5C9857FB4041F965625E26 /* Pods-Week5Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Week5Assessment/Info.plist;
@@ -268,6 +360,7 @@
 		};
 		8A169C9A1E5FCEE200F23533 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D746F3713FF010EA777459A7 /* Pods-Week5Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Week5Assessment/Info.plist;
@@ -297,6 +390,7 @@
 				8A169C9A1E5FCEE200F23533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
