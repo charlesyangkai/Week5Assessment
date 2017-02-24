@@ -25,5 +25,5 @@ class BikeStation {
         availableBikes = json["availableBikes"].intValue
         latitude = json["latitude"].doubleValue
         longitude = json["longitude"].doubleValue
-    }
+    }t
 }

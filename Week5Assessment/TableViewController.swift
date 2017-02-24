@@ -68,6 +68,16 @@ class TableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let viewController = storyboard?.instantiateViewController(withIdentifier: "ViewController") as? ViewController
+//        present(viewController!, animated: true, completion: nil)
+        
+        tableView.isHidden = true
+        viewController?.indexPathRow = indexPath.row
+        
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
